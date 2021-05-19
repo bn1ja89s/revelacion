@@ -1,12 +1,9 @@
 <?php
-$hostname = "localhost";
-$username = "bn1ja";
-$password = "0912";
-$dbname = "revelacion";
-// $hostname = "bfun2rr1krfy5cccm9a1-mysql.services.clever-cloud.com";
-// $username = "u8mi6p6lisgbomtm";
-// $password = "ocFDQaTvph70WkSufs9x";
-// $dbname = "bfun2rr1krfy5cccm9a1";
+$hostname = "bhfmrossnyv37gigqnej-mysql.services.clever-cloud.com";
+$username = "uap9tvtxfjv6kucw";
+$password = "5IWl50DORjqpZfpaz4qj";
+$dbname = "bhfmrossnyv37gigqnej";
+
 
 $conn = mysqli_connect($hostname, $username, $password, $dbname);
 if (!$conn) {
